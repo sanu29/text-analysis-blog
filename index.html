@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="container container-center">
+        <center>
+            <h1>NPM packages for Text Analysis</h1>
+        </center>
+        <header class="hero">
+            <img class="hero-img" src="01.jpg" />
+
+        </header>
+
+        <div class="container">
+            <h1>Introduction</h1>
+            Text analysis can be said as extraction of important keywords and then classifying them into categories which let us know more about the text.
+
+            Such as extracting the keywords. Get if the text or paragraph is negative or positive. The count of characters, words. To get the verbs, nouns and adjective. 
+
+            There are many algorithms used in this but with some npm packages make it easy for us to implement text analysis within few lines of code.
+
+            Here we will cover some basic text analysis using NPM packages.
+
+        </div>
+        </section>
+        <ul>
+            <li>
+                <div class="container">
+                    <h3>Keyword Extraction:</h3>
+                    This is a process in which we extract the important keywords from the text or paragraph.
+                    <br>
+                    <b>Package name</b>: keyword-extractor<br>
+                    <b>Installation</b>:  npm install keyword-extractor<br>
+                    <b>Function</b> : keyword-extractor.extract(input)<br>
+                    This package will take text as input and will return an array of keywords.<br>
+                    <img src="1.png" alt="" width="100%" >
+
+                    <small>For more details you can visit:  https://www.npmjs.com/package/keyword-extractor</small>
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <h3>Sentimental Analysis:</h3>
+                    In sentimental analysis we determine if the provided paragraph is positive or negative or neutral.
+                    <br>
+                    <b>Package name</b>: sentiment<br>
+                    <b>Installation</b> : npm install sentiment<br>
+                    <b>Function</b> : sentiment.analyze(text);<br>
+                    This package will take input block and return the words which are positive or negative and also will return comparative percentage.
+                    <img src="2.png" alt="" width="100%" >
+                  
+                    For more visit: https://www.npmjs.com/package/sentiment
+                </div>
+            </li>
+            <li>
+                <div class="container">
+                    <h3>Parts of speech:</h3>
+                    In parts of speech, we determine the nouns, adjectives and verbs in the sentence. 
+                    <br>
+                    <b>Package name</b>: wordpos<br>
+                    <b>Installation</b> : npm install -g wordpos<br>
+                    <b>Function</b> : wordpos.getPOS(input, callback);<br>
+                    <img src="3.png" alt="" width="100%" >
+                    
+                    This will take input as text block and return an array of parts of speech.
+                    
+                </div>
+            </li>
+        </ul>
+       
+   
+    <div class="container">
+        <h1>Conclusion</h1>
+        Using these npm packages you can easily proceed with text analysis rather than writing and implementing the algorithms and logic again from start.
+    </div>
+    </section>
+
+
+    </div>
+</body>
+
+</html>
